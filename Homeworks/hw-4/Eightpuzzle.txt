@@ -1,0 +1,19 @@
+his program is written in java programming language. To run this program open commandprompt/ terminal
+on a java installed system and compile it as javac Eightpuzzle.java
+Now run the program using java Eightpuzzle.
+
+The program consists of a board class which represents the board class which represents the board 
+data structure. There are two main functions bfsheuristic and manhattanheuristic which returns the 
+heuristic values for a particular board.
+
+There is also a code section which generates a 100 random input states, but only one state is given 
+as input to the search function because it takes much CPU time to output the solution.
+
+A function issolvable is implemented which checks whether an input board state can be solved with out 
+any infinite loops.
+
+There are two search functions getbestnode which uses manhattan heuristic and getbestnodebfs which uses
+bfsheuristic during the search.
+We run the search using both heuristics and observe that both of them return the same path cost but
+bfsheuristic takes more CPU time while manhattanheuristic takes less time for solving the problem.
+

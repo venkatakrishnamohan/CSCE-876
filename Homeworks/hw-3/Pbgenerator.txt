@@ -1,0 +1,19 @@
+The file name is Pbgenerator.java and is programmed using java programming language. This file can
+be run on any machine with java installed on it. Open Terminal/command prompt and got to
+the location where this file is stored. Now type.
+ javac Pbgenerator.java --> This compiles the program and generates a class file
+ java Pbgenrator --> This run the class file and displays output.
+
+This program consists of a class to represent the point datatype which store two random float 
+values as x and y coordinates.
+The function pbgen generates 5 of these random float values between 0 and 1 and stores them in a 
+point dataobject and returns it to the main function. This function also checks that no two
+generated random points are same.
+The function distances now generates some random distances betweeen these points between 0 and 10
+and returns it as a 2-dimensional array. The array generated ensures that the diagonal elements are 0
+as the distance from a point to itself is 0, and the distance from a point x to point y is same as
+the distance from point y to point x.
+
+These generated random points, distances can be considered as an instance to Traveling salesman
+problem with the points represented as cities and the distances between them represented as 
+distances among cities, represented as a 2D array.

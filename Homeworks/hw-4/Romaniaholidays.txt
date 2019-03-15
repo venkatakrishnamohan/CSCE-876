@@ -1,0 +1,20 @@
+This program is written in java programming language. To run this program open commandprompt/ terminal
+on a java installed system and compile it as javac Romaniaholidays.java
+Now run the program using java Romaniaholidays
+
+The program consists of a city class which represents the city data structure and consists of
+name of city, association list of neighboring cities and their distances, heuristic value, visited attributes.
+The visited attribute is used while implementing the graph search.
+
+The program also consists of a node class which represents the node data structure and consists of
+a city object, parent node, child nodes as an arraylist as its attributes.
+
+The program consists of all the functions as described in the hw4-generic pdf file and consists
+of some functions like evaluate node, search strategy as described in the 'some indications' section
+of pdf file.
+
+The program consists of two important functions search and graphsearch which performs the tree search and
+graph search techniques respectively.
+
+In the main function these search functions are called multiple number of times to obtain the search
+results in a tabular form. The search results are represented in a tabular form.
